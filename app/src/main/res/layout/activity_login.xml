@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="App Development Class"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EditTextTask"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Log in"
+        android:textSize="20sp" />
+
+</LinearLayout>

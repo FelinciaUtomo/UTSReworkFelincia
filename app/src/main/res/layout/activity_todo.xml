@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="<username>'s To Do"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/EditTextTask"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title Task"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/EditTextNote"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Note"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Due Date"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/EditTextDueDate"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Due Date"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/cbdone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Cancel_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+    <Button
+        android:id="@+id/Save_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+</LinearLayout>
